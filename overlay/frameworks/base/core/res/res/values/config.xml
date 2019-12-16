@@ -70,4 +70,6 @@
     <dimen name="status_bar_height_portrait">88px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
     <dimen name="rounded_corner_radius_top">96px</dimen>
+    <!-- Whether the device show_vendor_mismatch_message -->
+    <bool name="config_show_vendor_mismatch_message">false</bool>
 </resources>
