@@ -1,1 +1,1 @@
-add_lunch_combo aosip_twolip-userdebug
+add_lunch_combo aosp_twolip-userdebug
