@@ -20,7 +20,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/Dirac/dirac.mk)
 
 # Inherit some common aosp stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
