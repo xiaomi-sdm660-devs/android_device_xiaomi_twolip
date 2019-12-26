@@ -37,7 +37,7 @@ TARGET_KERNEL_CONFIG := tulip_defconfig
 TARGET_USES_OLD_MNC_FORMAT := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-08-05
+VENDOR_SECURITY_PATCH := 2018-06-05
 
 # Inherit the proprietary files
 -include vendor/xiaomi/twolip/BoardConfigVendor.mk
