@@ -37,6 +37,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Kernel
 TARGET_KERNEL_CONFIG := tulip_defconfig
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/vendor_framework_compatibility_matrix.xml
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
